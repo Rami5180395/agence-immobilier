@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <nav>
+    <a id="logo" href="index.html">
+        <img src="./xs.png" alt="logo">
+    </a>
+    
+        <ul>
+            <li><a href="./index.html">About</a></li>
+            <li><a href="./for-sales.html">For Sales</a></li>
+            <li><a href="./for-sales.html">For Rent</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+
+    <div class="hero">
+
+        <div class="hero_content">
+            <a href="" style="text-align: center !important;">Choose your new Home  </a>
+        </div>
+        
+        <div class="input01">
+
+            <div class="input">
+                <form action="/action_page.php">
+                    <label for="cars">Choose a place:</label>
+                    <select name="cars" id="cars">
+                    <option value="Nasr">Nasr</option>
+                    <option value="Manzah">Manzah</option>
+                    <option value="Manar">Manar</option>
+                    <option value="Montplaisir">Montplaisir</option>
+                    </select>
+                </form>
+            </div>
+
+            <div>
+               
+                    <div class="slidecontainer">
+                        <div class="heti">
+                        <div><h3>Choose a surface</h3></div>
+                        <div><input type="range" min="30" max="150" value="50" class="slider" id="myRange">
+                        <p>Surface en m²: <span id="demo"></span></p></div>
+                        </div>
+                    </div>
+
+                    <script>
+                        var slider = document.getElementById("myRange");
+                        var output = document.getElementById("demo");
+                        output.innerHTML = slider.value;
+
+                        slider1.oninput = function() {
+                        output.innerHTML = this.value;
+                        }
+                    </script>
+                    
+            </div>
+
+            <div>
+               
+                <div class="slidecontainer">
+                    <div class="heti">
+                    <div><h3>Choose a price</h3></div>
+                    <div><input type="range" min="100" max="300" value="50" class="slider" id="myRange">
+                    <p>Prix en MDT:<span id="demo"></span></p></div>
+                    </div>
+                </div>
+
+                <script>
+                    var slider = document.getElementById("myRange");
+                    var output = document.getElementById("demo");
+                    output.innerHTML = slider.value;
+
+                    slider.oninput = function() {
+                    output.innerHTML = this.value;
+                    }
+                </script>
+
+                <div class="hero_content">
+                    <a href="">Submit</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</main>
+
+
+<body>
+    <div class="site-selection">
+   <div class="opa">
+    <div><p>Ce qu’il faut savoir avant de vendre un bien immobilier à Berlin en 2021 ?<br>
+
+        Pour vendre un appartement à Berlin, il est judicieux de se renseigner en amont sur :<br>
+        
+            L’évolution du marché immobilier à Berlin depuis votre achat<br>
+            La tendance des prix de vente dans la ville et dans le quartier où se situe votre bien
+            La procédure de vente en Allemagne<br>
+            L’agence immobilière qui est plus à même d’accompagner votre projet de vente</p>
+        </div>
+   </div>
+    <div><img class="home1" src="./thumbnail.jpeg"></div>
+    </div>
+</body>
+
+</html>

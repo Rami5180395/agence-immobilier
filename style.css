@@ -1,0 +1,250 @@
+*{
+    box-sizing: border-box;
+}
+html , body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-size: 16px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+body{
+    background:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background:rgba(24, 24, 23, 0.925);
+    color: rgb(252, 252, 252);
+    padding: 20px 30px;
+}
+#logo{
+    display: inline-block;
+    color: rgb(192, 55, 37);
+    text-decoration: none;
+    width: 49%;
+}
+#logo img{
+    width: 65px;
+    border-radius: 3px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+nav{
+    height: 3em;
+    display: flex;
+}
+nav ul {
+    list-style: none;
+    margin: 15px;
+}
+nav ul li {
+    display: inline-block;
+    padding: 15px;
+}
+nav ul li a {
+    color:#fff;
+    text-decoration: none;
+    display: block;
+    padding: 6px;;
+    border-radius: 3px;
+    transition: 0.3s ease all;
+}
+nav ul li a:hover{background: #444}
+.hero{
+    min-height: 800px;
+    text-align: center;
+    background-image: url(./hardik-pandya--Ey_0PMz900-unsplash-1.jpg);
+    background-size: cover;
+}
+.hero_content{
+    color: #fff;
+    padding-top: -250px;
+    margin-right: -750px;
+    margin-right: 20px;
+}
+.hero_content a{
+    display: inline-block;
+    color: #fff;
+    border: 3px solid#fff;
+    border-radius: 3px;
+    padding: 15px 30px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 30px;
+}
+.slidecontainer {
+    margin: 70px;
+    
+  }
+  
+  .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+  }
+  h2{
+    display: inline-block;
+    color: #fff;
+    border-radius: 3px;
+    padding-right: 67em;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.input{
+    padding-right: 48em;
+    display: inline-block;
+    color: #fff;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.site-selection{
+    display: grid;
+    grid-template-columns: 50% 20% 30%;
+    justify-content: space-evenly;
+}
+.site-selection p{
+    text-align: center;
+    border: 1px solid;
+    margin-top: 50px;
+    margin-left: 30px;
+    padding: 45px;
+    background-color: #fff;
+
+}
+.site-selection{
+    background-image: url(./igor-tudoran-RJlbHMssWac-unsplash.jpg);
+
+}
+.home1{
+    width: 640px ;
+    height: 302px;
+    margin-top: 50px;
+}
+.card {
+    margin-top: 3em;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  .site-selection4{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-evenly;
+  }
+  .input01{
+      opacity: 0.9;;
+      background-color:rgba(24, 24, 23, 0.925);
+  }
+
+  .slidecontainer {
+    width: 90%;
+  }
+  
+  .slider {
+    -webkit-appearance: none;
+    width: 140%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    margin-left: 20em;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+  }
+  .slidecontainer h3{
+    color: white ;
+    margin-top: -0.4em;   
+
+}
+.slidecontainer p{
+color: white;
+margin-left: -4em;
+margin-top: -2em;
+
+}
+.slidecontainer .heti{
+    display: flex;}
+
+form {
+   
+box-shadow: 10px 10px 10px black;
+margin-top: 10px;
+margin-right: 0px;
+margin-bottom: 0px;
+margin-left: 81px;
+padding: 73px;
+border: 1px black solid;
+width: 397px;
+border-radius: 20px;
+}
+.contact-page-form-item{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+    
+   
+  
